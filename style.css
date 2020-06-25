@@ -1,0 +1,130 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: radial-gradient(circle, rgba(37, 37, 37, 0.95), rgba(40, 40, 40, 0.750), rgba(0, 0, 0, 0.800));
+}
+
+.container-fluid {
+  min-height: calc(100vh - 5em);
+}
+
+.color-texto {
+  color: rgb(226, 226, 226);
+}
+
+footer {
+  background: rgb(32, 32, 32);
+  color: rgb(226, 226, 226);
+  min-height: 5em;
+}
+
+footer:hover {
+  background: url(./img/tenor.gif) center;
+}
+
+.links {
+  margin-bottom: 1em;
+  color: white;
+}
+
+.tarjeta-integrante {
+  border-radius: 10px;
+  background: black;
+  color: rgb(156, 156, 156);
+  padding: 2em;
+}
+
+.numero-integrante {
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.form-group-nospace {
+  margin: 0;
+  padding: 0;
+}
+
+.fondo-form {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, .7), rgba(0,0,0,0.5));
+  border-radius: 8px;
+  margin-bottom: 4em;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  -webkit-box-shadow: 6px 7px 5px -1px rgba(36, 0, 17, 0.74);
+  -moz-box-shadow: 6px 7px 5px -1px rgba(36, 0, 17, 0.74);
+  box-shadow: 6px 7px 5px -1px rgba(36, 0, 17, 0.74);
+}
+
+.label-blanca {
+  color: white;
+}
+
+.form-input {
+  width: 100%;
+}
+
+.signo-mas {
+  color: white;
+  font-size: 4em;
+}
+
+.link-agregar:hover {
+  text-decoration: none;
+  border: -1px solid white;
+  color: white;
+}
+
+.tarjeta-integrante:hover {
+  -webkit-box-shadow: 6px 7px 5px -1px rgba(36, 0, 17, 0.74);
+  -moz-box-shadow: 6px 7px 5px -1px rgba(36, 0, 17, 0.74);
+  box-shadow: 6px 7px 5px -1px rgba(36, 0, 17, 0.74);
+}
+
+.dropdown {
+  border: 0px solid black;
+  width: 100%;
+}
+
+.margin-zero {
+  padding: 0px;
+}
+
+.titulo-estado {
+  font-size: 3em;
+  color: white;
+}
+
+header {
+  min-height: 9em;
+  background-image: radial-gradient(ellipse farthest-corner at 180% 550%, rgb(0, 0, 0) 0%, rgb(46, 46, 46) 80%,
+  rgb(77, 77, 77) 80%);;
+}
+
+hr {
+  border-color: white;
+  background-color: white;
+  color: white;
+  font-weight: bold;
+}
+
+h1 {
+  margin-left: 1em;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  .titulo-estado {
+    font-size: 2em;
+  }
+
+}
